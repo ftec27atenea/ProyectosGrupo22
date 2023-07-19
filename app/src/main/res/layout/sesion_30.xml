@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+       android:id="@+id/TextoEnPantalla"
+        android:background="#ff0000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Hola Grupo 22"
+        android:size="8mm"
+        android:textAlignment="center"
+        android_textColor="#fffff"
+
+
+
+
+    <TextView
+        android:id="@+id/TextoEnPantalla"
+        android:background="#ff0000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Hola Grupo 22"
+        android:size="8mm"
+        android:textAlignment="center"
+        android_textColor="#fffff"
+        tools:layout_editor_adsoluteX="0dp
+"
+
+</androidx.constraintlayout.widget.ConstraintLayout>
