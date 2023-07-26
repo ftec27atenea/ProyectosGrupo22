@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fondoazul">
+    <item name="android:background">#00ff00</item>
+    <item name="android:textColor">#ff5533</item>
+    <item name="android:textSize">20sp</item>
+    </style>
+</resources>
