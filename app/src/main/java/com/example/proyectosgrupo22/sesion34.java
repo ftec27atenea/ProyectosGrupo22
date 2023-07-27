@@ -3,7 +3,8 @@ package com.example.proyectosgrupo22;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.TextureView;
+import android.widget.TextView;
+
 
 public class sesion34 extends AppCompatActivity {
 
@@ -17,10 +18,10 @@ public class sesion34 extends AppCompatActivity {
         boolean Estudiante = true;
         String Nombre = "Kevin Guzman";
 
-        TextureView tvEdad=findViewById(R.id.tvEdad);
-        TextureView tvAltura=findViewById(R.id.tvAltura);
-        TextureView tvEstudiante=findViewById(R.id.tvEstudiante);
-        TextureView tvNombre=findViewById(R.id.tvNombre);
+        TextView tvEdad=findViewById(R.id.tvEdad);
+        TextView tvAltura=findViewById(R.id.tvAltura);
+        TextView tvEstudiante=findViewById(R.id.tvEstudiante);
+        TextView tvNombre=findViewById(R.id.tvNombre);
 
         tvEdad.setText(String.valueOf(Edad));
         tvAltura.setText(String.valueOf(Altura));
