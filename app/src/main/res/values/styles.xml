@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style>
-        <item name="verde">
-            
-        </item>
+    <style name="verde">
+        <item name="android:background">#559922</item>
     </style>
 </resources>
