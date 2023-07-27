@@ -13,7 +13,7 @@ public class sesion_34 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sesion34);
+        setContentView(R.layout.sesion_34);
 
         int edad = 45;
         double altura = 1.70;
