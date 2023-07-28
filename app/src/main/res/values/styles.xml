@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="fondoverde">
@@ -6,4 +5,4 @@
       <item name="android:textColor">#ff0088</item>
      <item name="android:textSize">20sp</item>
   </style>
- <resources>
+ </resources>
