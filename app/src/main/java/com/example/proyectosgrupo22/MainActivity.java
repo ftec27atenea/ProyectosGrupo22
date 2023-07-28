@@ -12,9 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.session_32);
-        TextView textvew1=findViewById(R.id.textoenpantalla);
-        Animation mianimacion =AnimationUtils.loadAnimation(getApplicationContext(),R.anim.animacion2);
-        textvew1.startAnimation(mianimacion);
+
+
     }
 }
