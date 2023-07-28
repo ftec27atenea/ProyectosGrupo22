@@ -22,7 +22,7 @@ public class sesion34 extends AppCompatActivity {
         TextView tvestudiante=findViewById(R.id.tvEstudiante);
         TextView tvnombre= findViewById(R.id.tvNombre);
 
-        tvedad.setText(String.valueOf(edad));
+        tvedad.setText("Edad="+String.valueOf(edad));
         tvaltura.setText(String.valueOf(altura));
         tvestudiante.setText(String.valueOf(esEstudiante));
         tvnombre.setText(String.valueOf(nombre));
