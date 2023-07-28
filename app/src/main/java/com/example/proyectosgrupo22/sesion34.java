@@ -23,8 +23,8 @@ public class sesion34 extends AppCompatActivity {
         TextView tvnombre=findViewById(R.id.tvNombre);
 
         tvedad.setText("Edad:"+String.valueOf(edad));
-        tvaltura.setText(String.valueOf(altura));
-        tvestudiante.setText(String.valueOf(Estudiante));
-        tvnombre.setText(nombre);
+        tvaltura.setText("altura:"+String.valueOf(altura));
+        tvestudiante.setText("estudiante:"+String.valueOf(Estudiante));
+        tvnombre.setText("nombre:"+nombre);
     }
 }
