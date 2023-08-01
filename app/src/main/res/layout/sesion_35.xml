@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CajaBlanca"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sesion_35">
+
+    <LinearLayout
+        android:id="@+id/CajaNegra"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="start">
+
+        <TextView
+            android:id="@+id/Smith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textosmith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="34sp"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/textoDario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:text=""
+            android:textColor="#2f419c"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/Wilber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff000"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textosmith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textoCamilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textomiguel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
+        <TextView
+        android:id="@+id/textokevin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ff0000"
+        android:text="kevin guzman"
+        android:textColor="#fff00f"
+        android:textSize="34sp" />
+
+        <TextView
+        android:id="@+id/textoivonn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00ff00"
+        android:text="ivonn"
+        android:textColor="#ffffff"
+        android:textSize="34sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        
+</LinearLayout>
