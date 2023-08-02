@@ -15,8 +15,8 @@ public class sesion_36 extends AppCompatActivity {
 
     public void  ObtenerFormaDeTransporte(View view){
         CheckBox OpcionCarro=findViewById(R.id.OpcionCarro);
-        CheckBox OpcionMoto=findViewById(R.id.OpcionCarro);
-        CheckBox OpcionBicicleta=findViewById(R.id.OpcionCarro);
+        CheckBox OpcionMoto=findViewById(R.id.OpcionMoto);
+        CheckBox OpcionBicicleta=findViewById(R.id.OpcionBicicleta);
 
         String carro="Carro:"+OpcionCarro.isChecked();
         String moto="Moto:"+OpcionMoto.isChecked();
