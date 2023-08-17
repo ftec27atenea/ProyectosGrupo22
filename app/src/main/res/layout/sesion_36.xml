@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CajaBlanca"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sesion_36">
+
+    <LinearLayout
+        android:id="@+id/CajaAzul"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etCajaDeTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese un texto"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="MostrarElTexto"
+            android:text="Enviar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/CajaVerde"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="#8BC34A"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Forma de transporte"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:id="@+id/OpcionCarro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Carro" />
+
+
+        <CheckBox
+            android:id="@+id/OpcionMoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Moto" />
+
+        <CheckBox
+            android:id="@+id/OpcionBicicleta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bicicleta" />
+
+        <Button
+            android:id="@+id/Enviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="ObteerFormaDeTransporte"
+            android:text="Enviar" />
+
+    </LinearLayout>
+
+</LinearLayout>

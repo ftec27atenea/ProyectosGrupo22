@@ -11,10 +11,11 @@
         android:id="@+id/CajaNegra"
         android:layout_width="400dp"
         android:layout_height="500dp"
-        android:background="#000000"
-        android:orientation="horizontal"
         android:layout_gravity="center"
-        android:gravity="start">
+        android:background="#000000"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:weightSum="1000">
 
         <TextView
             android:id="@+id/Smith"
@@ -27,15 +28,15 @@
             android:textSize="34sp" />
 
         <TextView
-            android:id="@+id/textosmith"
+            android:id="@+id/textosmith1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#00ff00"
+            android:orientation="vertical"
             android:text=""
             android:textColor="#ffffff"
-            android:textSize="34sp"
-            android:orientation="vertical" />
+            android:textSize="34sp" />
 
         <TextView
             android:id="@+id/textoDario"
@@ -58,7 +59,7 @@
             android:textSize="34sp" />
 
         <TextView
-            android:id="@+id/texto"
+            android:id="@+id/texto1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -108,27 +109,27 @@
             android:textSize="34sp" />
 
         <TextView
-        android:id="@+id/textokevin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="#ff0000"
-        android:text="kevin guzman"
-        android:textColor="#fff00f"
-        android:textSize="34sp" />
+            android:id="@+id/textokevin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:text="kevin guzman"
+            android:textColor="#fff00f"
+            android:textSize="34sp" />
 
         <TextView
-        android:id="@+id/textoivonn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="#00ff00"
-        android:text="ivonn"
-        android:textColor="#ffffff"
-        android:textSize="34sp"/>
+            android:id="@+id/textoivonn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:text="ivonn"
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
 
     </LinearLayout>
 
-    <TextView
         
 </LinearLayout>
