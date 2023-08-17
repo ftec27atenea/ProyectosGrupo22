@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ProyectosGrupo22</string>
+    <string name="titulo">MiEcoappGenial</string>
+    <string name="input_usuario">ingresa tu usuario</string>
+    <string name="input_password">ingresa tu password</string>
+    <string name="login">iniciar sesion</string>
+    <string name="recuperar_login">olvidaste tu contraseña ?</string>
 </resources>
