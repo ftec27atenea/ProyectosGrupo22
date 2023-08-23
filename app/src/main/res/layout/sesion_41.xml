@@ -7,7 +7,7 @@
     tools:context=".sesion_41">
 
     <ImageView
-        android:id="@+id/ivSorpresa"
+        android:id="@+id/iv_Sorpresa"
         android:layout_width="306dp"
         android:layout_height="215dp"
         android:onClick="MostarImagen"
@@ -21,8 +21,10 @@
         android:id="@+id/btnDetalle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:rotation="90"
         android:text="Sorpresa"
-        app:layout_constraintBottom_toTopOf="@+id/ivSorpresa"
-        app:layout_constraintEnd_toEndOf="@+id/ivSorpresa"
-        app:layout_constraintStart_toStartOf="@+id/ivSorpresa" />
+        app:layout_constraintBottom_toTopOf="@+id/iv_Sorpresa"
+        app:layout_constraintEnd_toEndOf="@+id/iv_Sorpresa"
+        app:layout_constraintStart_toStartOf="@+id/iv_Sorpresa" />
 </androidx.constraintlayout.widget.ConstraintLayout>

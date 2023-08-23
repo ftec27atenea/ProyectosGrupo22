@@ -19,7 +19,7 @@ public class sesion_41 extends AppCompatActivity {
     }
 
     public void MostarImagen(View v){
-        ImageView ivSorpresa=findViewById(R.id.ivSorpresa);
+        ImageView ivSorpresa=findViewById(R.id.iv_Sorpresa);
         if (ivSorpresa.getVisibility()==View.VISIBLE){
             ivSorpresa.setVisibility(View.GONE);
         }
