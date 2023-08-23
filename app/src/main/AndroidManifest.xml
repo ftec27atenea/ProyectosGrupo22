@@ -13,6 +13,20 @@
         android:theme="@style/Theme.ProyectosGrupo22"
         tools:targetApi="31">
         <activity
+            android:name=".session42"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sesion52"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".Sesion51b"
             android:exported="false" />
         <activity
@@ -24,11 +38,7 @@
         <activity
             android:name=".Sesion51"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
@@ -36,11 +46,7 @@
         <activity
             android:name=".sesion34"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
