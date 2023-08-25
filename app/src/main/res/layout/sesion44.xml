@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="300dp"
             android:scaleType="center"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            app:srcCompat="@drawable/win_mary_doll" />
     </LinearLayout>
 
     <Button
