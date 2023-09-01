@@ -16,14 +16,6 @@ public class sesion34 extends AppCompatActivity {
         boolean esEstudiante = false;
         String nombre = "Dario";
 
-        TextView tVnombre= findViewById(R.id.Nombret);
-        TextView tValtura= findViewById(R.id.Alturat);
-        TextView tVesEstudiante= findViewById(R.id.Estudiantet);
-        TextView tVedad= findViewById(R.id.Edadt);
 
-        tVnombre.setText(String.valueOf(nombre));
-        tValtura.setText(String.valueOf(altura));
-        tVesEstudiante.setText(String.valueOf(esEstudiante));
-        tVedad.setText(String.valueOf(edad));
     }
 }
