@@ -26,7 +26,7 @@ public class sesion_48_adapter extends RecyclerView.Adapter<sesion_48_adapter.Vi
 
 
 
-    public sesion_48_adapter( Context context, List<ListElement> listaElementos) {
+    public sesion_48_adapter( List<ListElement> listaElementos, Context context) {
 
     this.ListaElementos = listaElementos;
     this.layoutInflater = LayoutInflater.from(context);
