@@ -19,14 +19,14 @@ import android.widget.TextView;
 import java.util.List;
 
 
-public class sesion_48_adapter extends RecyclerView.Adapter<sesion_48_adapter.ViewHolder> {
+public class Adaptador extends RecyclerView.Adapter<Adaptador.ViewHolder> {
     private List<ListElement> ListaElementos;
     private LayoutInflater layoutInflater;
     private Context context;
 
 
 
-    public sesion_48_adapter( List<ListElement> listaElementos, Context context) {
+    public Adaptador(List<ListElement> listaElementos, Context context) {
 
     this.ListaElementos = listaElementos;
     this.layoutInflater = LayoutInflater.from(context);
@@ -37,14 +37,15 @@ public class sesion_48_adapter extends RecyclerView.Adapter<sesion_48_adapter.Vi
     public int getItemCount (){return ListaElementos.size();}
 
     @Override
-    public sesion_48_adapter.ViewHolder onCreateViewHolder (ViewGroup parent, int viewType){
+    public Adaptador.ViewHolder onCreateViewHolder (ViewGroup parent, int viewType){
         View view = layoutInflater.inflate(R.layout.sesion_48_plantilla, null);
-        return  new sesion_48_adapter.ViewHolder(view);
+//        View plantilla =this.layoutInflater.inflate(R.layout.sesion_48_plantilla, null);
+        return  new Adaptador.ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder( final sesion_48_adapter.ViewHolder holder, final int position){
-        holder.bindData(ListaElementos.get(position));
+    public void onBindViewHolder(final Adaptador.ViewHolder holder, final int position){
+        holder.CargarProducto(ListaElementos.get(position));
     }
 
 
@@ -63,7 +64,7 @@ public class sesion_48_adapter extends RecyclerView.Adapter<sesion_48_adapter.Vi
 
         }
 
-        void bindData(final ListElement item){
+        void CargarProducto(final ListElement item){
             iconImage.setColorFilter(Color.parseColor(item.getColor()), PorterDuff.Mode.ADD.SRC_IN);
             producto.setText(item.getProducto());
             precio.setText(item.getPrecio());

@@ -2,7 +2,6 @@ package com.example.proyectosgrupo22;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -34,7 +33,7 @@ public class sesion48 extends AppCompatActivity {
 
 
 
-        sesion_48_adapter adapter=new sesion_48_adapter(ListaProductos, this);
+        Adaptador adapter=new Adaptador(ListaProductos, this);
         RecyclerView recyclerView = findViewById(R.id.recycler);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
