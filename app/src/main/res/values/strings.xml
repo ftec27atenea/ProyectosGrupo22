@@ -3,4 +3,9 @@
     <string name="linear">Linear Layout</string>
     <string name="frame">Frame Layout</string>
     <string name="constrain">Constrain Layout</string>
+    <string name="boton_enviar_string">enviar</string>
+    <string name="nombre_segunda_actividad">segunda Actividad</string>
+    <string name="mensaje_recibido">Mensaje recibido</string>
+    <string name="entre_su_mensaje">Entre su mensaje</string>
+
 </resources>
